@@ -89,7 +89,7 @@ while run_program == True:
         )
 
     input(
-        "\nProcedere a explicar las instrucciones , habran 10 preguntas  entre las cuales cada una de ellas tendra solo una alternativa correcta, sin embargo habran niveles de preguntas que difieren a traves del color :Facil (Amarillo),  Intermedio(Verde), Dificil(Rojo).....Presiona Enter para continuar"
+        "\nProcederé a explicar las instrucciones , habran 10 preguntas  entre las cuales cada una de ellas tendra solo una alternativa correcta, sin embargo habran niveles de preguntas que difieren a traves del color :Facil (Amarillo),  Intermedio(Verde), Dificil(Rojo).....Presiona Enter para continuar"
     )
 
     input(
