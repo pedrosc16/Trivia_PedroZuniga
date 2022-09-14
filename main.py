@@ -55,7 +55,8 @@ while run_program == True:
         "\nHola amante del software y del hardware pero sobre todo de la tecnologia , me parece que estoy en lo cierto ya que te gusta todo lo relacionado a la programacion, el dia de hoy tengo ganas de retarte, por lo cual quiero que me demuestres tus conocimientos ."
     )
     wait(2)
-    name = input("\nPero antes de ello brindame tu Nombre por favor : ")
+    if attempt==1:
+      name=input("\nPero antes de ello brindame tu Nombre por favor : ")
     print(
         "\nHola " + correct_name(name) +
         " por lo visto este es tu intento numero :", attempt)
