@@ -131,7 +131,9 @@ while run_program == True:
             "\nExcelente " + correct_name(name) +
             " parece ser tu dia de suerte el puntaje que ganaste es mayor al promedio  ahora si prosigamos a las preguntas......Presiona Enter ahora si para ir a la trivia "
         )
-
+    for i in range(5,0,-1):
+        print(i)
+        wait(1)
     print(colors.blue + "\n***********Trivia Geek***************")
     wait(1)
     print(
